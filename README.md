@@ -3,7 +3,7 @@
 To initialize vault please use dev:
 vault server -dev
 
-You can add random properties to kv backend
+You can add random properties to kv backend:
 vault kv put secret/application test=true
 
 
